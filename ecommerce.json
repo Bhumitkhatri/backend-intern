@@ -1,0 +1,92 @@
+{
+    "products":  [{
+    "id": 1,
+    "num": "001",
+    "name": "Classy T-shirt",
+    "img": "http://bucket-name/object-name.s3-website-Region.amazonaws.com",
+    "attributes": {
+      "size" : ["small" ,"large"],
+      "color" : ["red","black" ]
+    },
+    "price": "3000",
+    "discount": "10%",
+    "reviews": [{
+      "num": "001",
+      "name": "elliot",
+      "comment": "Good fit , loved it!"
+    }, {
+      "num": "002",
+      "name": "darlene",
+      "comment": "yeah , was just fine"
+    }]
+  },
+    {
+    "id": 2,
+    "num": "002",
+    "name": "Denim T-shirt",
+    "img": "http://bucket-name/object-name.s3-website-Region.amazonaws.com",
+    "attributes": {
+      "size" : ["small","large"],
+      "color" : ["red","black" ]
+    },
+    "price": "4000",
+    "discount": "20%",
+    "reviews": [{
+      "num": "001",
+      "name": "elliot",
+      "comment": "Good fit , loved it!"
+    }]
+  },
+   {
+    "id": 3,
+    "num": "003",
+    "name": "Stud belt",
+    "img": "http://bucket-name/object-name.s3-website-Region.amazonaws.com",
+    "attributes": {
+      "size" : ["small","large"],
+      "color" : "black"
+    },
+    "price": 4000,
+    "discount": "20%",
+    "reviews": [{
+      "num": "004",
+      "name": "dom",
+      "comment": "Was never into belts , but this one is good!"
+    }]
+  },
+  {
+    "id": 4,
+    "num": "004",
+    "name": "Trousers",
+    "img": "http://bucket-name/object-name.s3-website-Region.amazonaws.com",
+    "attributes": {
+      "size" : ["small","large"],
+      "color" : "black"
+    },
+    "price": 2000,
+    "discount": "20%",
+    "reviews": [{
+      "num": "001",
+      "name": "hom",
+      "comment": "Very Flexible,The length is almost same for each size!"
+    }]
+  },
+  {
+    "id": 5,
+    "num": "005",
+    "name": "Footwear",
+    "img": "http://bucket-name/object-name.s3-website-Region.amazonaws.com",
+    "attributes": {
+      "size" : ["small","large"],
+      "categories" : ["men","women"],
+      "color" : ["Blue","grey","white"]
+    },
+    "price": 2000,
+    "discount": "20%",
+    "reviews": [{
+      "num": "001",
+      "name": "sham",
+      "comment": "It's a very nice and beautiful product!"
+    }]
+  }
+]}
