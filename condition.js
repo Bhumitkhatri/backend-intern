@@ -1,5 +1,5 @@
 var marksObtained = window.prompt('please enter the marks obtained');
-if (marksObtained == undefined || marksObtained == null || marksObtained == '') {
+if (marksObtained!="number") {
     console.log('invalid input');
 } else if (marksObtained < 0 || marksObtained > 100) {
     console.log('Input a number between 0 to 100');
