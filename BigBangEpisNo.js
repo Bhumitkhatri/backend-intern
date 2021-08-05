@@ -26,5 +26,5 @@ if (episodeDetails){
 
 }
 
-const ids = [2914,2915,2916];
+let ids = [2914,2915,2916];
 getData(ids);
